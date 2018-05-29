@@ -4,8 +4,12 @@ source 'https://rubygems.org'
 
 gem 'rake'
 
+gem 'ncurses-ruby'
+
 group :development, :test do
   gem 'minitest'
+
+  gem 'pry'
 
   gem 'guard',          require: false
   gem 'guard-bundler',  require: false

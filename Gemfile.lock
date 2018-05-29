@@ -45,6 +45,7 @@ GEM
     lumberjack (1.0.13)
     method_source (0.9.0)
     minitest (5.11.3)
+    ncurses-ruby (1.2.4)
     nenv (0.3.0)
     notiffany (0.1.1)
       nenv (~> 0.1)
@@ -97,6 +98,8 @@ DEPENDENCIES
   guard-bundler
   guard-minitest
   minitest
+  ncurses-ruby
+  pry
   rake
   reek
   rubocop
